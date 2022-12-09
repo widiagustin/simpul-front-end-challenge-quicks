@@ -1,12 +1,14 @@
 import React from 'react'
-import questionAnswer from '../assets/icons/question_answer_white.svg'
 
-export default function IconButton () {
+export default function IconButton ({ icon, color, onClick }) {
   return (
-    <>
-      <button className='bg-indicator-slate-blue w-[68px] h-[68px] rounded-full text-cente'>
-        <img src={questionAnswer} className="mx-auto" />
+    <div className='flex-row'>
+      <button
+        className={`rounded-full text-center w-[48px] h-[48px] desktop:w-[68px] desktop:h-[68px]
+      ${color}`}
+        onClick={onClick}>
+        <img src={icon} className="mx-auto" />
       </button>
-    </>
+    </div>
   )
 }
