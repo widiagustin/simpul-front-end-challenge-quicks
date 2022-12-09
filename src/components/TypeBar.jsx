@@ -5,7 +5,7 @@ export default function TypeBar () {
     <>
       <input
         placeholder='Type a new message'
-        className='h-10 w-[580px] rounded-md px-[10px] py-4 border border-primary-gray-2' />
+        className='h-10 w-[580px] rounded-md px-[10px] py-4 border border-primary-gray-2 pr-11' />
     </>
   )
 }
