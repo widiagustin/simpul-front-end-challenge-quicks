@@ -5,6 +5,10 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    screens: {
+      'desktop': '1920px',
+      'laptop': '1420px'
+    },
     extend: {
       colors: {
         "primary-royal-blue": "#2F80ED",
