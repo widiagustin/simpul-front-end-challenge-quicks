@@ -20,7 +20,9 @@ module.exports = {
         "indicator-indian-red": "#EB5757",
         "indicator-gold": "#F2C94C",
         "chat-light-orange": "#FCEED3",
+        "chat-deep-orange": "#E5A443",
         "chat-light-purple": "#EEDCFF",
+        "chat-deep-purple": "#9B51E0",
         "chat-light-green": "#D2F2EA",
         "sticker-light-gray": "#E9F3FF",
         "sticker-light-salmon": "#FDCFA4",
@@ -29,6 +31,7 @@ module.exports = {
         "sticker-light-green": "#CBF1C2",
         "sticker-lavender": "#CFCEF9",
         "sticker-light-thistle": "#F9E0FD",
+        "subgray": "#BDBDBD"
       }
     },
   },

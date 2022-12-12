@@ -8,5 +8,23 @@
   html {
     font-family: 'Lato', sans-serif;
     background-color: #262626;
+    color: #4F4F4F;
+  }
+
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #BDBDBD;
+    border-radius: 10px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(134, 134, 134);
   }
 }
