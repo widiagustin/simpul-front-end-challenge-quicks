@@ -8,7 +8,7 @@ export default function Inbox ({ children, title, date, name, text, onClick }) {
         className='w-[500px] desktop:w-[665px] mx-auto mt-[26px] cursor-pointer'>
         <div className='flex justify-between items-center'>
           <div className='flex w-[480px] desktop:w-full space-x-3'>
-            <div className='col-start-2 row-start-1 row-end-3 flex text-left items-start'>
+            <div className='col-start-2 w-12 row-start-1 row-end-3 flex text-left items-start'>
               <div className='flex justify-end -space-x-4'>
                 {children}
               </div>
